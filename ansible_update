@@ -1,5 +1,5 @@
 ---
-- hosts: MS01
+- hosts: all
 
   become: true
   tasks:
