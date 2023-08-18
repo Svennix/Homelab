@@ -2,7 +2,7 @@
 - hosts: MS01
 
   become: true
-  task:
+  tasks:
     - name: update apt
       apt:
         upgrade: yes
