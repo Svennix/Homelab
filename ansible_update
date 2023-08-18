@@ -1,1 +1,9 @@
-ls
+---
+- host: all
+
+  become: true
+  task:
+    - name: update apt
+      apt:
+        upgrade: yes
+        update_cache: yes
